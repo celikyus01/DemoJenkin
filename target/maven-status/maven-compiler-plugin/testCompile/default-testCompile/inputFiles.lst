@@ -1,0 +1,11 @@
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/utilities/Driver.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/utilities/BrowserUtils.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/utilities/CommonMethods.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/pages/LoginPage.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/stepdefinitions/LoginStepDefs.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/stepdefinitions/Hooks.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/runners/FailedTestRunner.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/pages/DashboardPage.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/utilities/ConfigurationReader.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/pages/BasePage.java
+/Users/Yusuf.Celik/IdeaProjects/DemoJenkin/src/test/java/com/app/runners/CukesRunner.java

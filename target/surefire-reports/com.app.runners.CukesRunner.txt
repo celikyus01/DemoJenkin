@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.app.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.641 s <<< FAILURE! - in com.app.runners.CukesRunner
+Authentication login.Succesful Login  Time elapsed: 9.349 s  <<< FAILURE!
+org.junit.ComparisonFailure: !! NOTE: Title was expected to be Dashboard, but found expected:<[Dashboard]> but was:<[]>
+
