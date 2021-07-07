@@ -11,8 +11,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.BrowserType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -76,24 +74,6 @@ public class Driver {
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }
-
-                case  "mobile_chrome":
-                    DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                    //we use android phone
-                    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
-                    //version of android
-                    desiredCapabilities.setCapability(MobileCapabilityType.VERSION, "8.0");
-                    //name of the device, if it is real device we need to pass UUID parameter
-                    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_2");
-                    desiredCapabilities.setCapability(MobileCapabilityType.BROWSER_NAME, BrowserType.CHROME);
-                    desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
-
-                    try{
-                        driverPool.set(new RemoteWebDriver(new URL("http://localhost:4723/wd/hub"),desiredCapabilities));
-                    } catch (MalformedURLException e) {
-                        e.printStackTrace();
-                    }
-
 
             }
         }
